@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    position: relative;
+    padding: 183px 90px;
+    background-color:  #D8ECFE;
+    align-items: center;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.about__wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    z-index: 3;
+}
+
+.about__text {
+    margin-top: 24px;
+}
+
+.about::after {
+    position: absolute;
+    right: 177px;
+    top: 56px;
+    display: block;
+    content: "";
+    width: 273px;
+    height: 627px;
+    margin: auto;
+    background: url("./../../../assets/farmer-bg.svg") no-repeat;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 446px;
+    height: 447px;
+    background: #C4E2FF;
+    border-radius: 50%;
+    right: 90px;
+}

@@ -1,0 +1,24 @@
+.advantage-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 90px;
+}
+
+.advantage-list__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 64px 0;
+}
+
+li {
+    list-style: none;
+}
+
+.advantage-list__item {
+    width: 540px;
+    background:  #E1EDCE;
+}
+
