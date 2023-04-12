@@ -3,11 +3,12 @@ import "./style.css";
 
 export const TitleSize = {
   BIG: "big",
+  MEDIUM: "medium",
   SMALL: "small",
-  DEFAULT: "",
-}
+  EXTRA_SMALL: "extra_small"
+};
 
-function Title({children, size}) {
+function Title({ children, size }) {
   return <h1 className={`title${size ? ` title_${size}` : ""}`}>{children}</h1>;
 }
 
