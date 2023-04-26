@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+import { createGlobalStyle } from "styled-components";
 
-html {
+export const GlobalStyle = createGlobalStyle`
+
+  html {
     height: 100%;
-}
+  }
 
-body,
-html,
-p,
-ul {
+  body,
+  html {
     margin: 0;
-    padding: 0;
-}
+  }
 
-body {
+  body {
     position: relative;
     min-height: 100%;
     font-family: "Inter", "Arial", sans-serif;
@@ -20,4 +19,5 @@ body {
     line-height: 27px;
     font-weight: 400;
     color: #333333;
-}
+  }
+`;
